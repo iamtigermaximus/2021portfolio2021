@@ -144,3 +144,6 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
+.portfolio-page-container{
+  overflow-x: hidden;
+}
