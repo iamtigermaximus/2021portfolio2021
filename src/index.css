@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+:root{
+  --matte-black: #17252A;
+  --myrtle-green:#2B7A78;
+  --light-green:#3AAFA9;
+  --light-beige:#C5C6C7;
+  --azure-white:#DEF2F1;
+  --white: #FEFFFF;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+
+.navbar{
+  background-color: var(--light-green);
+  color: var(--white);
+}
+.navbar-brand-link{
+  color: var(--white);
+  text-decoration: none;
+}
+.navbar-brand-link:hover{
+  color: var(--myrtle-green);
+}
+.navbar-links {
+  text-decoration: none;
+}
+.nav-link a{
+  text-decoration: none;
+  color: var(--white);
+}
+.nav-link a:hover{
+  color: var(--myrtle-green);
+}
+.home-page-container{
+  overflow-x: hidden;
+
+}
+
+.banner-page-container {
+  background: var(--light-green);
+  position: relative;
+  height: 100%;
+}
+.greeting-column-container{
+  color:var(--white)
+}
+.featured-project-container{
+  background:var(--azure-white);
+  height: 100%;
+  color:  rgb(114, 96, 96);
+}
+.project-slides-container{
+  background: var(--myrtle-green);
+ 
+}
+
+.carousel-container{
+  width: 300px;
+  height: 5000px;
+
+}
+.project-slide-image{
+  width: 40%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-footer-container{
+  background: var(--light-green);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer{
+  color: var(--azure-white);
+  font-size:small;
+}
+.social-media-container{
+  background: var(--light-green);
+ 
+  
+}
+.social-title{
+  color: var(--white);
+}
+.social-subtitle{
+  color: var(--white);
+}
+.social-icon{
+  font-size: x-large;
+}
+.social-link{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 15px;
+  font-weight: bold;
+}
+.social-link:hover{
+  color: var(--myrtle-green)
+}
+.page-heading-container {
+  background: var(--light-green);
+  color: var(--white);
+}
+.about-page-container{
+  overflow-x: hidden;
+}
+.about-info-container{
+  overflow-x: hidden;
+  background:var(--azure-white);
+  color: var(--matte-black);
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.button-link{
+  text-decoration: none;
+  color: white;
+}
+.button-link:hover{
+  color: var(--azure-white)
+}
+.fortfolio-projects-container{
+  background: var(--azure-white);
+  color:  rgb(114, 96, 96);
+}
+.project-image{
+  width: 250px;
+  height: 250px;
+}
+.contact-page-container{
+  background: var(--azure-white);
+  height: 100vh;
+  overflow-x: hidden;
+}
