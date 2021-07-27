@@ -4,9 +4,9 @@ import SocialMedia from '../components/SocialMedia'
 const Contact = () => {
     return (
         <div className="contact-page-container">
-           <div className="page-heading-container text-center py-5 my-5">
+           <div className="page-heading-container text-center py-5 mb-5">
                 <div className="page-heading-title">
-                    <h1 className="page-title">
+                    <h1 className="page-title pt-4">
                         Contact Me
                     </h1>
                 </div>

@@ -6,7 +6,7 @@ import SocialMedia from '../components/SocialMedia'
 
 const Home = () => {
     return (
-        <div className="home-page-container mt-5">
+        <div className="home-page-container">
             <Banner/>
             <Featured/>
             <ProjectSlides/>

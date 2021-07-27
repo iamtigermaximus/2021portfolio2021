@@ -20,7 +20,7 @@ const ProjectSlides = () => {
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item ">
                 <img src={ProjectImage2} className="d-block w-100" alt="..."/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>

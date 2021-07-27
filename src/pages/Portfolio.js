@@ -4,10 +4,10 @@ import ProjectImage2 from '../images/project-image2.jpg'
 
 const Portfolio = () => {
     return (
-        <div className="portfolio-page-container mt-5">
+        <div className="portfolio-page-container">
             <div className="page-heading-container text-center py-5 ">
                 <div className="page-heading-title">
-                    <h1 className="page-title">
+                    <h1 className="page-title pt-4">
                         My Projects
                     </h1>
                 </div>
@@ -17,7 +17,7 @@ const Portfolio = () => {
                     </h5>
                 </div>
             </div>
-            <div className="container-fluid fortfolio-projects-container">
+            <div className="container-fluid portfolio-projects-container">
                 <div className="row">
                     <div className="col-md-6  text-center p-5">
                         <div className="project-column-container">

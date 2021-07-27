@@ -1,5 +1,6 @@
 import React from 'react'
-import Image1 from '../images/TechFolio.png'
+import Image1 from '../images/portfoliopic.png'
+
 
 const Banner = () => {
     return (
@@ -13,13 +14,13 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 my-3 text-center">
-                        <div className="greeting-column-container ps-4">
+                    <div className="col-md-6 my-3  d-flex justify-content-center">
+                        <div className="greeting-column-container ">
                             <div className="greeting-heading text-center">
-                                <h1 className="greeting">Hey, I'm Siegy.</h1>
+                                <h1 className="greeting p-3">Hey, I'm Siegy.</h1>
                             </div>
-                            <div className="intro-text mt-4">
-                                <h2 className="greeting-subtext text-center">
+                            <div className="intro-text text-justify">
+                                <h2 className="greeting-subtext">
                                 A front end developer from the Philippines living in Helsinki. I create meaningful websites and projects to help people go further online.
                                 </h2>
                             </div>

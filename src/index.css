@@ -12,9 +12,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
-  
+  -ms-overflow-style:none
 }
+::-webkit-scrollbar{
+  display: none;
+}
+
 body {
   position: relative;
   min-height: 100vh;
@@ -23,7 +26,7 @@ body {
 
 
 .navbar{
-  background-color: var(--light-green);
+  background-color:#222532;
   color: var(--white);
 }
 .navbar-brand-link{
@@ -31,17 +34,26 @@ body {
   text-decoration: none;
 }
 .navbar-brand-link:hover{
-  color: var(--myrtle-green);
+  color: orangered;
+  
 }
 .navbar-links {
   text-decoration: none;
 }
+.nav-link{
+  border: 1px solid #222532;
+}
+.nav-link:hover{
+  border-bottom: 1px solid orangered;
+}
 .nav-link a{
   text-decoration: none;
   color: var(--white);
+  
 }
 .nav-link a:hover{
-  color: var(--myrtle-green);
+  color: orangered;
+ 
 }
 .home-page-container{
   overflow-x: hidden;
@@ -49,9 +61,13 @@ body {
 }
 
 .banner-page-container {
-  background: var(--light-green);
+  background: #222532;
   position: relative;
   height: 100%;
+}
+.profile-image{
+  width: 300px;
+  height: 300px;
 }
 .greeting-column-container{
   color:var(--white)
@@ -62,7 +78,7 @@ body {
   color:  rgb(114, 96, 96);
 }
 .project-slides-container{
-  background: var(--myrtle-green);
+  background: #222532;
  
 }
 
@@ -77,8 +93,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.slide-texts{
+  color: black;
+}
 .page-footer-container{
-  background: var(--light-green);
+  background:#222532;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -88,7 +107,7 @@ body {
   font-size:small;
 }
 .social-media-container{
-  background: var(--light-green);
+  background: #222532;
  
   
 }
@@ -100,6 +119,7 @@ body {
 }
 .social-icon{
   font-size: x-large;
+  color: white;
 }
 .social-link{
   text-decoration: none;
@@ -111,7 +131,7 @@ body {
   color: var(--myrtle-green)
 }
 .page-heading-container {
-  background: var(--light-green);
+  background: #222532;
   color: var(--white);
 }
 .about-page-container{
@@ -121,7 +141,7 @@ body {
   overflow-x: hidden;
   background:var(--azure-white);
   color: var(--matte-black);
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button-link{
@@ -146,4 +166,93 @@ body {
 }
 .portfolio-page-container{
   overflow-x: hidden;
+
 }
+
+.mobile-navigation{
+  display: none;
+}
+
+@media (max-width: 768px){
+  .navigation {
+    display: none;
+  }
+  .mobile-navigation {
+    display: grid;
+  }
+  .greeting-subtext{
+    font-size: large;
+  }
+  .greeting-column-container{
+    padding: 0;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 15px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background:orangered;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  height: 100%;
+  
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background:#222532;
+  font-size: 35px;
+ 
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: black;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+
