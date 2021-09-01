@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import SocialMedia from '../components/SocialMedia'
 import ProjectImage2 from '../images/project-image2.jpg'
 
@@ -17,85 +18,71 @@ const Portfolio = () => {
                     </h5>
                 </div>
             </div>
-            <div className="container-fluid portfolio-projects-container">
-                <div className="row">
-                    <div className="col-md-6  text-center p-5">
-                        <div className="project-column-container">
-                            <div className="project-image-container d-flex justify-content-center ">
-                                <img className="project-image " src={ProjectImage2} alt="..."/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6  text-center">
-                        <div className="project-description-container p-5">
-                            <div className="project-heading text-center">
-                                <h1 className="project-title">PROJECT 1</h1>
-                            </div>
-                            <div className="intro-text p-5">
-                                <h6 className="project-subtext text-center">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6  text-center p-5">
-                        <div className="project-column-container">
-                            <div className="project-image-container d-flex justify-content-center ">
-                                <img className="project-image " src={ProjectImage2} alt="..."/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6  text-center">
-                        <div className="project-description-container p-5">
-                            <div className="project-heading text-center">
-                                <h1 className="project-title">PROJECT 2</h1>
-                            </div>
-                            <div className="intro-text p-5">
-                                <h6 className="project-subtext text-center">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6  text-center p-5">
-                        <div className="project-column-container">
-                            <div className="project-image-container d-flex justify-content-center ">
-                                <img className="project-image " src={ProjectImage2} alt="..."/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6  text-center ">
-                        <div className="project-description-container p-5">
-                            <div className="project-heading text-center">
-                                <h1 className="project-title">PROJECT 3</h1>
-                            </div>
-                            <div className="intro-text p-5">
-                                <h6 className="project-subtext text-center">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6  text-center p-5">
-                        <div className="project-column-container">
-                            <div className="project-image-container d-flex justify-content-center ">
-                                <img className="project-image " src={ProjectImage2} alt="..."/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6  text-center">
-                        <div className="project-description-container p-5">
-                            <div className="project-heading text-center">
-                                <h1 className="project-title">PROJECT 4</h1>
-                            </div>
-                            <div className="intro-text p-5">
-                                <h6 className="project-subtext text-center">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className="container portfolio-projects-container">
+            <div className="container py-5">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+  <div className="col">
+    <div className="card h-100">
+      <img src={ProjectImage2}className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Project Title</h5>
+        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.</p>
+      </div>
+      <button className="btn btn-primary rounded-pill mb-2"><Link className="button-link">View Project</Link></button>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src={ProjectImage2} className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Project Title</h5>
+        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.</p>
+      </div>
+      <button className="btn btn-primary rounded-pill mb-2"><Link className="button-link">View Project</Link></button>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src={ProjectImage2} className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Project Title</h5>
+        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.</p>
+      </div>
+      <button className="btn btn-primary rounded-pill mb-2"><Link className="button-link">View Project</Link></button>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src={ProjectImage2} className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Project Title</h5>
+        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.</p>
+      </div>
+      <button className="btn btn-primary rounded-pill mb-2"><Link className="button-link">View Project</Link></button>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src={ProjectImage2} className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Project Title</h5>
+        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.</p>
+      </div>
+      <button className="btn btn-primary rounded-pill mb-2"><Link className="button-link">View Project</Link></button>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src={ProjectImage2} className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Project Title</h5>
+        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.</p>
+      </div>
+      <button className="btn btn-primary rounded-pill mb-2"><Link className="button-link">View Project</Link></button>
+    </div>
+  </div>
+</div>
+            </div>
             </div>
             <SocialMedia/>
           </div>

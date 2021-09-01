@@ -16,10 +16,11 @@ const Banner = () => {
                     </div>
                     <div className="col-md-6 my-3  d-flex justify-content-center">
                         <div className="greeting-column-container ">
-                            <div className="greeting-heading text-center">
-                                <h1 className="greeting p-3">Hey, I'm Siegy.</h1>
+                            <div className="greeting-heading text-left">
+                                <h4 className="greeting pt-3">Hey there!</h4>
+                                <h1>I'm Siegfred.</h1>
                             </div>
-                            <div className="intro-text text-justify">
+                            <div className="intro-text text-left">
                                 <h2 className="greeting-subtext">
                                 A front end developer from the Philippines living in Helsinki. I create meaningful websites and projects to help people go further online.
                                 </h2>
@@ -29,6 +30,8 @@ const Banner = () => {
                 </div>
             </div>
         </div>
+      
+      
         
     )
 }

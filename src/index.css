@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 :root{
   --matte-black: #17252A;
   --myrtle-green:#2B7A78;
@@ -12,7 +12,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  -ms-overflow-style:none
+  -ms-overflow-style:none;
+  font-family: 'Roboto Slab', serif;
+
 }
 ::-webkit-scrollbar{
   display: none;
@@ -45,7 +47,9 @@ body {
 }
 .nav-link:hover{
   border-bottom: 1px solid orangered;
+  transition: transform .5s;
 }
+  
 .nav-link a{
   text-decoration: none;
   color: var(--white);
@@ -136,6 +140,8 @@ body {
 }
 .about-page-container{
   overflow-x: hidden;
+  background: var(--azure-white);
+
 }
 .about-info-container{
   overflow-x: hidden;
@@ -151,7 +157,7 @@ body {
 .button-link:hover{
   color: var(--azure-white)
 }
-.fortfolio-projects-container{
+.portfolio-page-container{
   background: var(--azure-white);
   color:  rgb(114, 96, 96);
 }
@@ -188,6 +194,10 @@ body {
   }
   ::-webkit-scrollbar{
     display: none;
+  }
+
+  .description{
+    font-size: small;
   }
   
 }
@@ -255,4 +265,42 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
 }
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  background: #222532;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background:#222532;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+
+.card:hover{
+  border-color: orangered;
+  transform: scale(1.02);
+  transition: transform .5s;
+}

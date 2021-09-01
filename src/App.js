@@ -4,6 +4,7 @@ import {BrowserRouter,Switch, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
+
 //PAGES
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'

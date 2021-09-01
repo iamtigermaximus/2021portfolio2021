@@ -1,12 +1,12 @@
 import React from 'react'
-import {FaGithub,FaInstagramSquare,FaEnvelope,FaTwitterSquare} from 'react-icons/fa'
+import {FaGithub,FaInstagramSquare,FaEnvelope,FaLinkedin} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
 
 
 const SocialMedia = () => {
     return (
-        <div className="social-media-container sticky-bottom">
+        <div className="social-media-container sticky-bottom pb-5">
             <div className="container">
             <div className="container p-2 mx-5">
                 <div className="row">
@@ -22,17 +22,17 @@ const SocialMedia = () => {
                     <div className="col-md-6 p-3 mb-5">
                         <div className="social-media p-2">
                             <div className="social-icon">
-                                <span><FaEnvelope/></span><Link className="social-link" to="mailto:dante_sparda1925@yahoo.com">  SIEGFRED GAMBOA</Link>
+                                <span><FaEnvelope/></span><a href="mailto:siegy.gamboa@gmail.com"  className="social-link">  SIEGFRED GAMBOA</a>
                             </div>
                             <div className="social-icon">
-                                <span><FaGithub/></span><Link className="social-link" to="mailto:dante_sparda1925@yahoo.com">  ON GITHUB</Link>
+                                <span><FaGithub/></span><a href="https://github.com/iamtigermaximus" className="social-link">  ON GITHUB</a>
                             </div>
                             <div className="social-icon">
-                                <FaInstagramSquare/><Link className="social-link" to="mailto:dante_sparda1925@yahoo.com">  ON INSTAGRAM</Link>
+                                <FaInstagramSquare/><a href="mailto:dante_sparda1925@yahoo.com" className="social-link">  ON INSTAGRAM</a>
                             </div>
                            
                             <div className="social-icon">
-                                <FaTwitterSquare/><Link className="social-link" to="mailto:dante_sparda1925@yahoo.com">  ON TWITTER</Link>
+                                <FaLinkedin/><a href="https://www.linkedin.com/in/siegfred-gamboa-5b1277218" className="social-link">  ON LINKEDIN</a>
                             </div>
                         </div>
                     </div>
