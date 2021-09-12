@@ -9,31 +9,31 @@ const MobileNavigation = () => {
     const hideSidebar=()=>{
         setSidebar(sidebar ? false : "show sidebar")
     }
+ 
 
     return (
-            <div className="mobile-navigation bg-primary">
+            <div className="mobile-navigation">
                 <Menu right width={'50%'} isOpen={sidebar}>
-            <div className="nav-links" >
-                <ul className="navbar-nav ms-auto" onClick={hideSidebar}>
-                    <li className="nav-link" >
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li className="nav-link">
-                        <Link to="/portfolio">Portfolio</Link>
-                     </li>
-                    <li className="nav-link">
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li className="nav-link">
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
-            </div>
-            </Menu>
-           
-            </div>
-               
+                    <div className="nav-links" >
+                        <ul className="navbar-nav ms-auto"onClick={hideSidebar} >
+                            <li className="nav-link" >
+                                <Link to="/" >Home</Link>
+                            </li>
+                            <li className="nav-link">
+                                <Link to="/portfolio">Portfolio</Link>
+                            </li>
+                            <li className="nav-link">
+                                <Link to="/about">About</Link>
+                            </li>
+                            <li className="nav-link">
+                                <Link to="/contact">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </Menu>
+           </div>         
     )
 }
 
 export default MobileNavigation
+

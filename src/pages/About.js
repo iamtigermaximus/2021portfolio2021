@@ -1,6 +1,7 @@
 import React from 'react'
 import Image1 from '../images/portfolio-pic-about.jpg'
 import SocialMedia from '../components/SocialMedia'
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
     return (
@@ -18,6 +19,7 @@ const About = () => {
                 </div>
             </div>
             <div className="about-page-content">
+                <Fade>
               <div className="container">
                   <div className="row">
                   <div className="col-md-2">
@@ -26,11 +28,11 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-md-8 py-3">
-                            <div className="description align-items-center">
+                            <div className="description align-items-center px-3">
                                 <p><span className="fs-3">My name is Siegfred. I'm a self-taught  web developer based in Helsinki, Finland.</span> 
                                 <br/>
                                 <br/>
-                                <span className="fs-5">I’ve always sought out opportunities and challenges that are meaningful to me.Although my professional path has taken many twists and turns — from being a farmer, to small business owner and entrepreneur, to a professional chef — I've never stopped engaging my passion to help others and solve problems.
+                                <span className="fs-6">I’ve always sought out opportunities and challenges that are meaningful to me.Although my professional path has taken many twists and turns — from being a farmer, to small business owner and entrepreneur, to a professional chef — I've never stopped engaging my passion to help others and solve problems.
                                 <br/>
                                 <br/>I’m naturally inquisitive and enjoy figuring out how things work. I enjoy making thoughtful, engaging, and functional web applications that have a simple, clean and distinct design.Here are some of the technologies and methodologies I am currently into: Javascript, React, HTML, CSS,Styled Components, Bootstrap, REST API,JSON,NodeJS, Visual Studio Code, Github, Git.
                                 <br/>
@@ -61,8 +63,8 @@ const About = () => {
                   
               </div>
                 </div>
-
               </div>
+              </Fade>
               <SocialMedia/>
             </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import SocialMedia from '../components/SocialMedia'
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
     return (
@@ -17,6 +18,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-form-container">
+                <Fade>
                 <div className="container">
                     <div className="row container">
                         <div className="col-md-6 my-2 justify-content-center">
@@ -53,6 +55,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
             <SocialMedia/>
         </div>

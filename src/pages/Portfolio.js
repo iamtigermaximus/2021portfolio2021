@@ -2,10 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import SocialMedia from '../components/SocialMedia'
 import ProjectImage2 from '../images/project-image2.jpg'
+import Fade from 'react-reveal/Fade';
 
 const Portfolio = () => {
     return (
         <div className="portfolio-page-container">
+         
             <div className="page-heading-container text-center py-5 ">
                 <div className="page-heading-title">
                     <h1 className="page-title pt-4">
@@ -18,10 +20,11 @@ const Portfolio = () => {
                     </h5>
                 </div>
             </div>
+            <Fade >
             <div className="container portfolio-projects-container">
             <div className="container py-5">
             <div className="row row-cols-1 row-cols-md-3 g-4">
-  <div className="col">
+    <div className="col">
     <div className="card h-100">
       <img src={ProjectImage2}className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -84,7 +87,9 @@ const Portfolio = () => {
 </div>
             </div>
             </div>
+            </Fade>
             <SocialMedia/>
+          
           </div>
     )
 }

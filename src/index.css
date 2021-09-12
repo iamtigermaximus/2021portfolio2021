@@ -19,14 +19,10 @@
 ::-webkit-scrollbar{
   display: none;
 }
-
 body {
   position: relative;
   min-height: 100vh;
-  
 }
-
-
 .navbar{
   background-color:#222532;
   color: var(--white);
@@ -57,13 +53,11 @@ body {
 }
 .nav-link a:hover{
   color: orangered;
- 
 }
+/* HOMEPAGE*/
 .home-page-container{
   overflow-x: hidden;
-
 }
-
 .banner-page-container {
   background: #222532;
   position: relative;
@@ -72,6 +66,7 @@ body {
 .profile-image{
   width: 300px;
   height: 300px;
+  z-index:1;
 }
 .greeting-column-container{
   color:var(--white)
@@ -83,13 +78,10 @@ body {
 }
 .project-slides-container{
   background: #222532;
- 
 }
-
 .carousel-container{
   width: 300px;
   height: 5000px;
-
 }
 .project-slide-image{
   width: 40%;
@@ -106,14 +98,14 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+/*FOOTER*/
 .footer{
   color: var(--azure-white);
   font-size:small;
 }
 .social-media-container{
   background: #222532;
- 
-  
 }
 .social-title{
   color: var(--white);
@@ -138,10 +130,10 @@ body {
   background: #222532;
   color: var(--white);
 }
+/*ABOUT PAGE*/
 .about-page-container{
   overflow-x: hidden;
   background: var(--azure-white);
-
 }
 .about-info-container{
   overflow-x: hidden;
@@ -157,30 +149,35 @@ body {
 .button-link:hover{
   color: var(--azure-white)
 }
+
+/*PORTFOLIO*/
 .portfolio-page-container{
   background: var(--azure-white);
   color:  rgb(114, 96, 96);
+  overflow-x: hidden;
 }
 .project-image{
   width: 250px;
   height: 250px;
 }
+.card:hover{
+  border-color: orangered;
+  transform: scale(1.02);
+  transition: transform .5s;
+}
+/*CONTACT*/
 .contact-page-container{
   background: var(--azure-white);
   height: 100vh;
   overflow-x: hidden;
 }
-.portfolio-page-container{
-  overflow-x: hidden;
-
-}
-
 .mobile-navigation{
   display: none;
 }
 
-@media (max-width: 768px){
-  .navigation {
+
+@media (max-width: 768px) {
+  .navigation { 
     display: none;
   }
   .mobile-navigation {
@@ -195,14 +192,11 @@ body {
   ::-webkit-scrollbar{
     display: none;
   }
-
   .description{
-    font-size: small;
+    font-size: 5px;
+    padding-:2rem;
   }
-  
-}
-
-/* Position and sizing of burger button */
+/*React-Burger-Menu*/
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -210,73 +204,48 @@ body {
   right: 36px;
   top: 15px;
 }
-
-/* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: white;
 }
-
-/* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
   background:orangered;
 }
-
-/* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
   width: 24px;
 }
-
-/* Color/shape of close button cross */
 .bm-cross {
   background: #bdc3c7;
 }
-
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
 .bm-menu-wrap {
   height: 100%;
-  
 }
-
-/* General sidebar styles */
 .bm-menu {
   background:#222532;
   font-size: 35px;
- 
 }
-
-/* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: black;
 }
-
-/* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
 }
-
-
-/* Individual item */
 .bm-item {
   display: inline-block;
 }
-
+/* Swiper 
 .swiper-container {
   width: 100%;
   height: 100%;
   background: #222532;
 }
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background:#222532;
+  background:#222532;*/
 
-  /* Center slide text vertically */
+  /* Center slide text vertically 
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -290,17 +259,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
   -webkit-align-items: center;
   align-items: center;
 }
-
 .swiper-slide img {
   display: block;
   width: 90%;
   height: 90%;
   object-fit: cover;
+}*/
 }
 
 
-.card:hover{
-  border-color: orangered;
-  transform: scale(1.02);
-  transition: transform .5s;
-}

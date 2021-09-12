@@ -9,23 +9,23 @@ const Navigation = () => {
                     <Link className="navbar-brand-link" to="/"> SIEGFRED GAMBOA</Link>
                 </div>
                 <div className="navlinks">
-                <ul className="navbar-nav">
-                    <li className="nav-link">
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li className="nav-link">
-                        <Link to="/portfolio">Portfolio</Link>
-                     </li>
-                    <li className="nav-link">
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li className="nav-link">
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
+                    <ul className="navbar-nav">
+                        <li className="nav-link">
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li className="nav-link">
+                            <Link to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li className="nav-link">
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li className="nav-link">
+                            <Link to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     )
 }
 
