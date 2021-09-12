@@ -4,14 +4,14 @@ import MobileNavigation from './MobileNavigation'
 
 const Navbar = () => {
     return (
-          <>
+          <div>
              <div className="navigation">
                <Navigation/>
            </div>
            <div className="mobile-navigation">
                <MobileNavigation/>
            </div>
-          </>
+          </div>
                 
       
     )

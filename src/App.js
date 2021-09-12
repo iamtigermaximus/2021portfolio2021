@@ -10,10 +10,11 @@ import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import React from 'react';
 
 function App() {
   return (
-    <>
+    <div>
     <BrowserRouter>
       <Navbar/>
       <Switch>
@@ -32,7 +33,7 @@ function App() {
       </Switch>
       <Footer/>
     </BrowserRouter>
-    </>
+    </div>
   );
 }
 

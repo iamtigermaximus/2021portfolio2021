@@ -21,7 +21,7 @@ export default function App() {
   
   
   return (
-    <>
+    <div>
     <div className="swiper-container py-5">
     <Swiper spaceBetween={30} centeredSlides={true} autoplay={{
   "delay": 2500,
@@ -42,6 +42,6 @@ export default function App() {
   <button className="btn btn-primary rounded-pill mt-3 justify-content-center"><Link className="button-link" to="/portfolio">View all Projects</Link></button>
   </div>
     </div>
-    </>
+    </div>
   )
 }
