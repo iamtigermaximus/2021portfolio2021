@@ -78,6 +78,9 @@ body {
 }
 .project-slides-container{
   background: #222532;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
 }
 .carousel-container{
   width: 300px;
@@ -268,3 +271,43 @@ body {
 }
 
 
+/* CAROUSEL*/
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.control-dots{
+  background-color: transparent;
+}
+
+.card-image-top{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.carousel{
+display: flex;
+justify-content: center;
+height: 40vh;
+
+}
+.carousel-wrapper{
+height: 30%;
+}
+
+.carousel-slide{
+height: 50vh;
+}  
+
+.carousel-slide img{
+max-width: 80%;
+object-fit: inherit !important;
+
+}
