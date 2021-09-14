@@ -1,5 +1,8 @@
 import React from 'react'
-import FeaturedImage1 from '../images/project-image1.jpg'
+import CovidAppImage1 from '../images/CAI-L1.png'
+import CovidAppImage2 from '../images/CAI-Laptop.png'
+import CovidAppImage3 from '../images/CAI-Tablet.png'
+import CovidAppImage4 from '../images/CAI-Phone.png'
 
 const Featured = () => {
     return (
@@ -11,22 +14,22 @@ const Featured = () => {
                 <div className="container">
                     <div className="row ">
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center ">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={FeaturedImage1} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage1} alt="..."/>
                         </div>
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={FeaturedImage1} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage2} alt="..."/>
                         </div>
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={FeaturedImage1} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage3} alt="..."/>
                         </div>
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={FeaturedImage1} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage4} alt="..."/>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="fproject-name">
-                        <h5 className="featured-project text-center">Featured Project Name</h5>
+                        <h5 className="featured-project text-center">CORONA TRACKER</h5>
                     </div>
                     <div className="row">
                         <div className="col-md-6 p-3">

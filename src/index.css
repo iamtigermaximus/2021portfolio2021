@@ -308,6 +308,6 @@ height: 50vh;
 
 .carousel-slide img{
 max-width: 80%;
-object-fit: inherit !important;
+object-fit: fill;
 
 }

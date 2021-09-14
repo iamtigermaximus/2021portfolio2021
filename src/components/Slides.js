@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ProjectImage1 from '../images/project-image1.jpg'
+import CovidAppImage4 from '../images/CAI-Phone.png'
 import {Link} from 'react-router-dom'
 
 const Slides = () => {
@@ -15,13 +15,13 @@ const Slides = () => {
                 showThumbs={false} 
                 showStatus={false}>
                     <div className="text-center">
-                        <img src={ProjectImage1} alt="project"/>
+                        <img src={CovidAppImage4} alt="project"/>
                     </div>
                     <div className="text-center">
-                        <img src={ProjectImage1} alt="project"/>
+                        <img src={CovidAppImage4} alt="project"/>
                     </div>
                     <div className="text-center">
-                        <img src={ProjectImage1} alt="project"/>
+                        <img src={CovidAppImage4} alt="project"/>
                     </div>
                 </Carousel>
                 <div className="text-center">
