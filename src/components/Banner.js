@@ -11,22 +11,22 @@ const Banner = () => {
                 params={{
                     "particles": {
                         "number": {
-                        " value": 160,
+                        " value": 500,
                         "density": {
                             "enable": true,
-                            "value_area": 1500
+                            "value_area": 500
                             }
                         },
                     "line_linked": {
                         "enable": true,
-                        "opacity": 0.3
+                        "opacity": 0.5
                     },
                     "move": {
                         "direction": "top",
                         "speed": 0.5
                     },
                     "size": {
-                        "value": 2
+                        "value": 3
                     },
                     "opacity": {
                         "anim": {

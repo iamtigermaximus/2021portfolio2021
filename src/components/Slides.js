@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import MovieSearchImage from '../images/hookedimage5.png'
 import PortfolioImage from '../images/portfolioimage4.png'
 import CovidAppImage from '../images/CAI-Phone.png'
 import RestaurantImage from '../images/restaurantimage4.png'
@@ -16,6 +17,9 @@ const Slides = () => {
                 autoPlay 
                 showThumbs={false} 
                 showStatus={false}>
+                    <div className="text-center">
+                        <img src={MovieSearchImage} alt="project"/>
+                    </div>
                     <div className="text-center">
                         <img src={RestaurantImage} alt="project"/>
                     </div>

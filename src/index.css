@@ -164,9 +164,9 @@ body {
   height: 250px;
 }
 .card:hover{
-  border-color: orangered;
-  transform: scale(1.02);
-  transition: transform .5s;
+  color:var(--white);
+  background-color: #222532;;
+  
 }
 /*CONTACT*/
 .contact-page-container{
@@ -284,14 +284,6 @@ body {
 .control-dots{
   background-color: transparent;
 }
-
-.card-image-top{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-
 .carousel{
 display: flex;
 justify-content: center;
@@ -310,4 +302,16 @@ height: 50vh;
 max-width: 80%;
 object-fit: fill;
 
+}
+
+.card-image-top{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card-title{
+  font-size: 15px;
+}
+.card-text{
+  font-size: 10px;
 }
