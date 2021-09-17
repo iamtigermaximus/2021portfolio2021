@@ -36,8 +36,8 @@ const Portfolio = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.</p>
       </div>
       <div className="project-links text-center p-2">
-        <button className="btn btn-primary rounded-pill"><a href="https://github.com/iamtigermaximus/2021portfolio2021" target="_blank" rel="noopener noreferrer" className="button-link">View Code</a></button>
-        <button className="btn btn-primary rounded-pill"><a href="https://tigerportfolio2021.netlify.app/" target="_blank" rel="noopener noreferrer" className="button-link">View Site</a></button>
+        <button className="btn btn-primary rounded-pill"><a href="https://github.com/iamtigermaximus/hooked2021" target="_blank" rel="noopener noreferrer" className="button-link">View Code</a></button>
+        <button className="btn btn-primary rounded-pill"><a href="https://tigercode-hooked2021.netlify.app/" target="_blank" rel="noopener noreferrer" className="button-link">View Site</a></button>
       </div>
     </div>
   </div>
