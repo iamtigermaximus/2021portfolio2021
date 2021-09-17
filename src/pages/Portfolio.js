@@ -10,8 +10,9 @@ import {FaGlobe,FaLaptopCode } from "react-icons/fa"
 const Portfolio = () => {
     return (
         <div className="portfolio-page-container">
-         
+          
             <div className="page-heading-container text-center py-5 ">
+            <Fade top>
                 <div className="page-heading-title">
                     <h1 className="page-title pt-4">
                         My Projects
@@ -22,7 +23,9 @@ const Portfolio = () => {
                         Check out some of my personal projects.
                     </h5>
                 </div>
+                </Fade>
             </div>
+            
             <Fade >
             <div className="container portfolio-projects-container">
             <div className="container py-5">

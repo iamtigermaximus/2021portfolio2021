@@ -6,6 +6,7 @@ const Contact = () => {
     return (
         <div className="contact-page-container">
            <div className="page-heading-container text-center py-5 mb-5">
+               <Fade top>
                 <div className="page-heading-title">
                     <h1 className="page-title pt-4">
                         Contact Me
@@ -16,6 +17,7 @@ const Contact = () => {
                         Get in touch with me.
                     </h5>
                 </div>
+                </Fade>
             </div>
             <div className="contact-form-container">
                 <Fade>
@@ -51,7 +53,7 @@ const Contact = () => {
                     </div>
                     <div className="container">
                         <div className="row container text-center">
-                        <button className="btn btn-primary rounded-pill mb-5 my-2 text-center">Send</button>
+                        <button className="btn btn-primary rounded-pill mb-5 my-2 text-center"><a href="mailto:siegy.gamboa@gmail.com" className="social-link">Send</a></button>
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,7 @@ const About = () => {
     return (
       <div className="about-page-container">
           <div className="page-heading-container text-center py-5 mb-3">
+              <Fade top>
                 <div className="page-heading-title">
                     <h1 className="page-title pt-4">
                         About Me
@@ -17,6 +18,7 @@ const About = () => {
                         Find out who I am, where I'm from and what I'm all about.
                     </h5>
                 </div>
+                </Fade>
             </div>
             <div className="about-page-content">
                 <Fade>
