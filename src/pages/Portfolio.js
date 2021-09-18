@@ -38,11 +38,11 @@ const Portfolio = () => {
         <p className="card-text text-primary">Technologies Used:React, React Router, Bootstrap, HTML, CSS, REST API</p>
         <h6 card-title>The Brief</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+          The Covid-19 pandemic has changed the way we live.People tries to think of different ways to make the time they spend at home as enjoyable as possible.More time at home means more time for streaming movies and watching TV.
         </p>
         <h6 card-title>The Result</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+          Hooked is a movie search app that lets you do basic search of a particular movie.It returns basic information and overview of the movie.It also provides an updated list of trending movie recommendation.Hooked is responsive and can be viewed in different devices.
         </p>
       </div>
       <div className="project-links text-center p-2">
@@ -59,11 +59,11 @@ const Portfolio = () => {
         <p className="card-text text-primary">Technologies Used:React, React Router, Bootstrap, HTML, CSS, REST API</p>
         <h6 card-title>The Brief</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+        Covid Tracker apps are everywhere, but my biggest issue with them all is how bloated they all are. Social login, user tracking, email notifications. The list goes on. I wanted something really simple but shows the important data needed by the user.
         </p>
         <h6 card-title>The Result</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+         Corona Tracker is a prevalence app that provides up-to-date cases of Covid-19 around the world.It provides a dashboard that returns number of cases, deaths and recovered.The app also can give information about a country's status as well as travel advisories.Corona Tracker is responsive and can be viewed in different devices.
         </p>
       </div>
       <div className="project-links text-center p-2">
@@ -80,11 +80,11 @@ const Portfolio = () => {
         <p className="card-text text-primary">Technologies Used:React, React Router, Bootstrap, HTML, CSS</p>
         <h6 card-title>The Brief</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+         A website gives a restaurant business a platform to provide the basic information the customers may need to know.It gives potential customers a feel for your restaurant, menu and atmosphere.
         </p>
         <h6 card-title>The Result</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+          Moma provides basic information about the restaurant's menu,the kind of service, how to book and reserve a table, contact information and a blog page.Moma is responsive and can be viewed in different devices. 
         </p>
       </div>
       <div className="project-links text-center p-2">
@@ -101,11 +101,11 @@ const Portfolio = () => {
         <p className="card-text text-primary">Technologies Used:React, React Router, Bootstrap, HTML, CSS</p>
         <h6 card-title>The Brief</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+          There are certain careers where portfolios prove more helpful than just resume in showcasing your skills and experience.As a self-taught developer, I believe that portfolio websites will help employers assess whether the skills and knowledge of a potential employee fits their needs.
         </p>
         <h6 card-title>The Result</h6>
         <p className="card-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id.
+          I built a portfolio website to showcase a collection of my personal projects.It also provides basic information about myself, contact details and links to project websites.The portfolio website is responsive and can be viewed in different devices.
         </p>
       </div>
       <div className="project-links text-center p-2">

@@ -34,12 +34,18 @@ const Featured = () => {
                     <div className="row">
                         <div className="col-md-6 p-3">
                             <div className="description  ">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id. </p>
+                                <h6 card-title>The Brief</h6>
+                                <p>
+                                Covid Tracker apps are everywhere, but my biggest issue with them is how bloated they all are. Social login, user tracking, email notifications. The list goes on. I wanted something really simple but shows the important data needed by the user.
+                                 </p>
                             </div>
                         </div>
                         <div className="col-md-6 p-3">
                             <div className="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer vitae justo eget magna fermentum iaculis eu. Purus viverra accumsan in nisl nisi. Neque laoreet suspendisse interdum consectetur. Duis convallis convallis tellus id. </p>
+                                <h6 card-title>The Result</h6>
+                                <p>
+                                Corona Tracker is a prevalence app that provides up-to-date cases of Covid-19 around the world.It provides a dashboard that returns number of cases, deaths and recovered.The app also can give information about a country's status as well as travel advisories.Corona Tracker is responsive and can be viewed in different devices.
+                                </p>
                             </div>
                         </div>
                     </div>

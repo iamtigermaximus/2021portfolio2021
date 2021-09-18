@@ -34,7 +34,7 @@ const About = () => {
                                 <p><span className="fs-3">My name is Siegfred. I'm a self-taught  web developer based in Helsinki, Finland.</span> 
                                 <br/>
                                 <br/>
-                                <span className="fs-6">I’ve always sought out opportunities and challenges that are meaningful to me.Although my professional path has taken many twists and turns — from being a farmer, to small business owner and entrepreneur, to a professional chef — I've never stopped engaging my passion to help others and solve problems.
+                                <span className="fs-6 about-content">I’ve always sought out opportunities and challenges that are meaningful to me.Although my professional path has taken many twists and turns — from being a farmer, to small business owner and entrepreneur, to a professional chef — I've never stopped engaging my passion to help others and solve problems.
                                 <br/>
                                 <br/>I’m naturally inquisitive and enjoy figuring out how things work. I enjoy making thoughtful, engaging, and functional web applications that have a simple, clean and distinct design.Here are some of the technologies and methodologies I am currently into: Javascript, React, HTML, CSS,Styled Components, Bootstrap, REST API,JSON,NodeJS, Visual Studio Code, Github, Git.
                                 <br/>

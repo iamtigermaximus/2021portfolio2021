@@ -199,6 +199,7 @@ body {
     font-size: 5px;
     padding-:2rem;
   }
+
 /*React-Burger-Menu*/
 .bm-burger-button {
   position: fixed;
@@ -294,13 +295,17 @@ height: 40vh;
 height: 30%;
 }
 
-.carousel-slide{
-height: 50vh;
-}  
-
+ 
+.carousel-slider{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .carousel-slide img{
-max-width: 80%;
-object-fit: fill;
+height: auto;
+width: 100%;
+display: block;
+
 
 }
 
