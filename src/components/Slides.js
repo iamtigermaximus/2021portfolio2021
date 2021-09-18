@@ -9,9 +9,8 @@ import {Link} from 'react-router-dom'
 
 const Slides = () => {
     return (
-        <div className="bg-dark">>
-            <div className="container">
-            <div className="carousel-wrapper">
+        <div className="carousel-slides-container">
+            <div className="carousel-wrapper mx-auto">
                 <Carousel 
                 infiniteLoop useKeyboardArrows 
                 autoPlay 
@@ -30,10 +29,9 @@ const Slides = () => {
                         <img src={PortfolioImage} alt="project"/>
                     </div>
                 </Carousel>
-                <div className="text-center">
-                    <button className="btn btn-primary rounded-pill mt-3 justify-content-center"><Link className="button-link" to="/portfolio">View all Projects</Link></button>
-                </div>
             </div>
+        <div className="text-center">
+            <button className="btn btn-primary rounded-pill mt-3 justify-content-center"><Link className="button-link" to="/portfolio">View all Projects</Link></button>
         </div>
         </div>
     )
