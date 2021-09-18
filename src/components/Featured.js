@@ -35,7 +35,7 @@ const Featured = () => {
                         <div className="col-md-6 p-3">
                             <div className="description  ">
                                 <h6 card-title>The Brief</h6>
-                                <p>
+                                <p className="card-title">
                                 Covid Tracker apps are everywhere, but my biggest issue with them is how bloated they all are. Social login, user tracking, email notifications. The list goes on. I wanted something really simple but shows the important data needed by the user.
                                  </p>
                             </div>
@@ -43,7 +43,7 @@ const Featured = () => {
                         <div className="col-md-6 p-3">
                             <div className="description">
                                 <h6 card-title>The Result</h6>
-                                <p>
+                                <p className="card-title">
                                 Corona Tracker is a prevalence app that provides up-to-date cases of Covid-19 around the world.It provides a dashboard that returns number of cases, deaths and recovered.The app also can give information about a country's status as well as travel advisories.Corona Tracker is responsive and can be viewed in different devices.
                                 </p>
                             </div>
