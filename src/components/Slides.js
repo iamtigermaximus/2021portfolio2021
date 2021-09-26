@@ -5,6 +5,7 @@ import MovieSearchImage from '../images/hookedimage5.png'
 import PortfolioImage from '../images/portfolioimage4.png'
 import CovidAppImage from '../images/CAI-Phone.png'
 import RestaurantImage from '../images/restaurantimage4.png'
+import StarShopImage from '../images/starshop-image4.png'
 import {Link} from 'react-router-dom'
 
 const Slides = () => {
@@ -15,7 +16,10 @@ const Slides = () => {
                 infiniteLoop useKeyboardArrows 
                 autoPlay 
                 showThumbs={false} 
-                showStatus={false}>
+                    showStatus={false}>
+                    <div className="text-center">
+                        <img src={StarShopImage} alt="project"/>
+                    </div>
                     <div className="text-center">
                         <img src={MovieSearchImage} alt="project"/>
                     </div>
