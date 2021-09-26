@@ -4,6 +4,7 @@ import PortfolioImage from '../images/portfolioimage4.png'
 import CovidAppImage from '../images/CAI-Phone.png'
 import RestaurantImage from '../images/restaurantimage4.png'
 import MovieSearchImage from '../images/hookedimage5.png'
+import StarShopImage from '../images/starshop-image4.png'
 import Fade from 'react-reveal/Fade';
 import {FaGlobe,FaLaptopCode } from "react-icons/fa"
 
@@ -27,7 +28,28 @@ const Portfolio = () => {
             <Fade >
             <div className="container portfolio-projects-container">
               <div className="container py-5">
-                <div className="row row-cols-1 row-cols-md-3 g-4">
+              <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="col">
+              <div className="card h-100">
+                <img src={StarShopImage} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  <h5 className="card-title text-center fw-bold">StarShop- E-Commerce Website</h5>
+                  <p className="card-text text-primary">Technologies Used:React, React Router, Bootstrap,Json-Server, HTML, CSS</p>
+                  <h6 card-title>The Brief</h6>
+                  <p className="card-text">
+                    Online commerce offers a plethora of benefits, from selling everywhere to personalized experiences that drive loyalty.
+                  </p>
+                  <h6 card-title>The Result</h6>
+                  <p className="card-text">
+                     StarShop was inspired by the leading online fashion store in Europe.The website is responsive and can be viewed in different devices. 
+                  </p>
+                </div>
+              <div className="project-links text-center p-2">
+                <button className="btn btn-primary rounded-pill"><a href="https://github.com/iamtigermaximus/e-commerce-website-react" target="_blank" rel="noopener noreferrer" className="button-link"><FaLaptopCode/></a></button>
+                <button className="btn btn-primary rounded-pill"><a href="https://starshop-ecommerce-website.netlify.app//" target="_blank"  rel="noopener noreferrer" className="button-link"><FaGlobe/></a></button>
+              </div>
+            </div>
+          </div>
                   <div className="col">
                     <div className="card h-100">
                       <img src={MovieSearchImage}className="card-img-top" alt="..."/>
@@ -112,7 +134,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-      </div
+      </div>
     </div>
   </div>
   </Fade>
