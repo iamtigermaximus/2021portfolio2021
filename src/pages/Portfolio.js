@@ -46,7 +46,7 @@ const Portfolio = () => {
                 </div>
               <div className="project-links text-center p-2">
                 <button className="btn btn-primary rounded-pill"><a href="https://github.com/iamtigermaximus/e-commerce-website-react" target="_blank" rel="noopener noreferrer" className="button-link"><FaLaptopCode/></a></button>
-                <button className="btn btn-primary rounded-pill"><a href="https://starshop-ecommerce-website.netlify.app//" target="_blank"  rel="noopener noreferrer" className="button-link"><FaGlobe/></a></button>
+                <button className="btn btn-primary rounded-pill"><a href="https://starshop-ecommerce-website.netlify.app" target="_blank"  rel="noopener noreferrer" className="button-link"><FaGlobe/></a></button>
               </div>
             </div>
           </div>
