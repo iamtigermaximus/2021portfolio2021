@@ -5,6 +5,7 @@ import CovidAppImage from '../images/CAI-Phone.png'
 import RestaurantImage from '../images/restaurantimage4.png'
 import MovieSearchImage from '../images/hookedimage5.png'
 import StarShopImage from '../images/starshop-image4.png'
+import GrabEatImage from '../images/grab-eat-image1.png'
 import Fade from 'react-reveal/Fade';
 import {FaGlobe,FaLaptopCode } from "react-icons/fa"
 
@@ -29,6 +30,28 @@ const Portfolio = () => {
             <div className="container portfolio-projects-container">
               <div className="container py-5">
               <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="col">
+              <div className="card h-100">
+                <img src={GrabEatImage} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  <h5 className="card-title text-center fw-bold">Grab Eat- A Food Delivery App</h5>
+                  <p className="card-text text-primary">Technologies Used:React, React Router, Bootstrap, HTML, CSS</p>
+                  <h6 card-title>The Brief</h6>
+                  <p className="card-text">
+                    ONGOING PERSONAL PROJECT...
+                  </p>
+                  <h6 card-title>The Result</h6>
+                  <p className="card-text">
+                        ONGOING PERSONAL PROJECT...
+                        Check the progress on the link.
+                  </p>
+                </div>
+              <div className="project-links text-center p-2">
+                <button className="btn btn-primary rounded-pill"><a href="https://github.com/iamtigermaximus/grab-eat-food-delivery" target="_blank" rel="noopener noreferrer" className="button-link"><FaLaptopCode/></a></button>
+                <button className="btn btn-primary rounded-pill"><a href="https://grab-eat-food-delivery.netlify.app/" target="_blank"  rel="noopener noreferrer" className="button-link"><FaGlobe/></a></button>
+              </div>
+            </div>
+          </div>
                 <div className="col">
               <div className="card h-100">
                 <img src={StarShopImage} className="card-img-top" alt="..."/>
