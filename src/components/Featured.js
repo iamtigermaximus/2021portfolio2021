@@ -1,8 +1,8 @@
 import React from 'react'
-import CovidAppImage1 from '../images/CAI-L1.png'
-import CovidAppImage2 from '../images/CAI-Laptop.png'
-import CovidAppImage3 from '../images/CAI-Tablet.png'
-import CovidAppImage4 from '../images/CAI-Phone.png'
+import StarShopImage1 from '../images/starshop-image1.png'
+import StarShopImage2 from '../images/starshop-image4.png'
+import StarShopImage3 from '../images/starshop2.png'
+import StarShopImage4 from '../images/starshop6.png'
 
 const Featured = () => {
     return (
@@ -14,29 +14,29 @@ const Featured = () => {
                 <div className="container">
                     <div className="row ">
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center ">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage1} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={StarShopImage1} alt="..."/>
                         </div>
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage2} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={StarShopImage2} alt="..."/>
                         </div>
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage3} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={StarShopImage3} alt="..."/>
                         </div>
                         <div className="col-md-3 col-sm-6 d-flex justify-content-center">
-                            <img className="fproject-image img-thumbnail img-fluid m-3" src={CovidAppImage4} alt="..."/>
+                            <img className="fproject-image img-thumbnail img-fluid m-3" src={StarShopImage4} alt="..."/>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="fproject-name">
-                        <h5 className="featured-project text-center">CORONA TRACKER</h5>
+                        <h5 className="featured-project text-center">StarShop- E-Commerce Website</h5>
                     </div>
                     <div className="row">
                         <div className="col-md-6 p-3">
                             <div className="description  ">
                                 <h6 card-title>The Brief</h6>
                                 <p className="card-title">
-                                Covid Tracker apps are everywhere, but my biggest issue with them is how bloated they all are. Social login, user tracking, email notifications. The list goes on. I wanted something really simple but shows the important data needed by the user.
+                                Online commerce offers a plethora of benefits, from selling everywhere to personalized experiences that drive loyalty.The goal of this project is to build a website that is easy to navigate and to have a cart functionality.
                                  </p>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ const Featured = () => {
                             <div className="description">
                                 <h6 card-title>The Result</h6>
                                 <p className="card-title">
-                                Corona Tracker is a prevalence app that provides up-to-date cases of Covid-19 around the world.It provides a dashboard that returns number of cases, deaths and recovered.The app also can give information about a country's status as well as travel advisories.Corona Tracker is responsive and can be viewed in different devices.
+                               StarShop was inspired by the leading online fashion store in Europe.The website is responsive and can be viewed in different devices. 
                                 </p>
                             </div>
                         </div>
