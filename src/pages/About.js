@@ -22,14 +22,14 @@ const About = () => {
             </div>
             <div className="about-page-content">
                 <Fade>
-              <div className="container">
-                  <div className="row">
-                  <div className="col-md-2">
-                            <div className="description  ">
-                                <p></p>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-2">
+                                <div className="description  ">
+                                    <p></p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-md-8 py-3">
+                            <div className="col-md-8 py-3">
                             <div className="description align-items-center px-3">
                                 <p><span className="fs-3">My name is Siegfred. I'm a self-taught  web developer based in Helsinki, Finland.</span> 
                                 <br/>
@@ -53,23 +53,22 @@ const About = () => {
               </div>
               <div className="container">
                 <div className="row mb-5">
-                <div className="col-sm-4">
-                 
+                    <div className="col-sm-4">
               </div>
               <div className="col-sm-4">
                   <div className="card">
-                  <img src={Image1} className="card-img-top" alt="..."/>
-              </div>
+                    <img src={Image1} className="card-img-top" alt="..."/>
+                </div>
               </div>
               <div className="col-sm-4">
                   
               </div>
-                </div>
-              </div>
-              </Fade>
-              <SocialMedia/>
             </div>
-      </div>
+        </div>
+        </Fade>
+        <SocialMedia/>
+    </div>
+</div>
     )
 }
 
