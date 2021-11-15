@@ -28,7 +28,7 @@ const SocialMedia = () => {
                                     <span><FaGithub/></span><a href="https://github.com/iamtigermaximus" className="social-link">  ON GITHUB</a>
                                 </div>
                                 <div className="social-icon">
-                                    <FaInstagramSquare/><a href="mailto:dante_sparda1925@yahoo.com" className="social-link">  ON INSTAGRAM</a>
+                                    <FaInstagramSquare/><a href="instagram.com/iamtigermaximus" className="social-link">  ON INSTAGRAM</a>
                                 </div>
                                 <div className="social-icon">
                                     <FaLinkedin/><a href="https://www.linkedin.com/in/siegfred-gamboa-5b1277218" className="social-link">  ON LINKEDIN</a>
