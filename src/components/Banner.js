@@ -1,7 +1,7 @@
 import React from 'react'
 import Image1 from '../images/portfoliopic.png'
 import Fade from 'react-reveal/Fade'
-import Particles from 'react-particles-js'
+import Particles from 'react-tsparticles'
 
 const Banner = () => {
   return (
