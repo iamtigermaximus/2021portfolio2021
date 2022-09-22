@@ -7,6 +7,7 @@ import MovieSearchImage from '../images/hookedimage5.png'
 import StarShopImage from '../images/starshop-image4.png'
 import GrabEatImage from '../images/grab-eat-image1.png'
 import Bike1 from '../images/Bike-f1.png'
+import Construction1 from '../images/smg-constructions.png'
 import Fade from 'react-reveal/Fade'
 import { FaGlobe, FaLaptopCode } from 'react-icons/fa'
 
@@ -69,6 +70,52 @@ const Portfolio = () => {
                     <button className='btn btn-primary rounded-pill'>
                       <a
                         href='https://bike-finland.vercel.app/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='button-link'
+                      >
+                        <FaGlobe />
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='col'>
+                <div className='card h-100'>
+                  <img src={Construction1} className='card-img-top' alt='...' />
+                  <div className='card-body'>
+                    <h5 className='card-title text-center fw-bold'>
+                      SMG Constructions Website
+                    </h5>
+                    <p className='card-text text-primary'>
+                      Technologies Used: React, React,Styled-Components, HTML,
+                      CSS
+                    </p>
+                    <h6 card-title>The Brief</h6>
+                    <p className='card-text'>
+                      A sample website for a construction company
+                    </p>
+                    <h6 card-title>The Result</h6>
+                    <p className='card-text'>
+                      SMG Constructions is a mock up website of a construction
+                      company.It displays the services the company offers and
+                      information about the company.
+                    </p>
+                  </div>
+                  <div className='project-links text-center p-2'>
+                    <button className='btn btn-primary rounded-pill'>
+                      <a
+                        href='https://github.com/iamtigermaximus/smg-constructions-website'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='button-link'
+                      >
+                        <FaLaptopCode />
+                      </a>
+                    </button>
+                    <button className='btn btn-primary rounded-pill'>
+                      <a
+                        href='https://smg-constructions-react.netlify.app/'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='button-link'
