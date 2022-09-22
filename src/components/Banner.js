@@ -45,7 +45,7 @@ const Banner = () => {
                     Helsinki. I create meaningful websites and projects to help
                     people go further online.
                   </h2>
-                  <h6>Frontend Developer / FullStack Developer</h6>
+                  <h1 className="job-title">Frontend Developer / FullStack Developer</h1>
                   <div className='banner-tech-container'>
                     <div className='banner-tech'>
                       <SiReact />

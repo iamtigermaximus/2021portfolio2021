@@ -78,6 +78,9 @@ body {
 .banner-tech {
   margin: 0 5px;
 }
+.job-title {
+  font-size: 10px;
+}
 .profile-image {
   width: 300px;
   height: 300px;
@@ -237,6 +240,10 @@ body {
   .description {
     font-size: 5px;
     padding: 2rem;
+  }
+
+  .job-title {
+    font-size: 13px;
   }
 
   /*React-Burger-Menu*/
