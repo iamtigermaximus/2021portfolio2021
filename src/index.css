@@ -71,7 +71,13 @@ body {
   position: relative;
   height: 100%;
 }
-
+.banner-tech-container {
+  display: flex;
+  flex-direction: row;
+}
+.banner-tech {
+  margin: 0 5px;
+}
 .profile-image {
   width: 300px;
   height: 300px;

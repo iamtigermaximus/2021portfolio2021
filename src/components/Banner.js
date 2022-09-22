@@ -1,6 +1,18 @@
 import React from 'react'
 import Image1 from '../images/portfoliopic.png'
 import Fade from 'react-reveal/Fade'
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiJavascript,
+  SiReact,
+  SiHtml5,
+  SiCss3,
+  SiMongodb,
+  SiStyledcomponents,
+  SiBootstrap,
+  SiNodedotjs,
+} from 'react-icons/si'
 
 const Banner = () => {
   return (
@@ -34,6 +46,38 @@ const Banner = () => {
                     people go further online.
                   </h2>
                   <h6>Frontend Developer / FullStack Developer</h6>
+                  <div className='banner-tech-container'>
+                    <div className='banner-tech'>
+                      <SiReact />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiTypescript />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiNextdotjs />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiJavascript />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiMongodb />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiHtml5 />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiCss3 />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiStyledcomponents />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiBootstrap />
+                    </div>
+                    <div className='banner-tech'>
+                      <SiNodedotjs />
+                    </div>
+                  </div>
                 </Fade>
               </div>
             </div>

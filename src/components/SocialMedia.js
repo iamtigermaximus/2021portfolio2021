@@ -7,6 +7,7 @@ import {
 } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
+
 const SocialMedia = () => {
   return (
     <div className='social-media-container sticky-bottom pb-5'>
