@@ -76,10 +76,11 @@ const Banner = () => {
               <div className='intro-text text-left'>
                 <Fade right>
                   <h2 className='greeting-subtext'>
-                    A frontend developer from the Philippines living in
+                    A Software Developer from the Philippines living in
                     Helsinki. I create meaningful websites and projects to help
                     people go further online.
                   </h2>
+                  <h6>Frontend Developer / FullStack Developer</h6>
                 </Fade>
               </div>
             </div>
