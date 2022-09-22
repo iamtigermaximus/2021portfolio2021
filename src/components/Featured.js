@@ -1,8 +1,8 @@
 import React from 'react'
-import StarShopImage1 from '../images/starshop-image1.png'
-import StarShopImage2 from '../images/starshop-image4.png'
-import StarShopImage3 from '../images/starshop2.png'
-import StarShopImage4 from '../images/starshop6.png'
+import Bike1 from '../images/Bike-f1.png'
+import Bike2 from '../images/Bike-f2.png'
+import Bike3 from '../images/Bike-f3.png'
+import Bike4 from '../images/Bike-f4.png'
 
 const Featured = () => {
   return (
@@ -16,28 +16,28 @@ const Featured = () => {
             <div className='col-md-3 col-sm-6 d-flex justify-content-center '>
               <img
                 className='fproject-image img-thumbnail img-fluid m-3'
-                src={StarShopImage1}
+                src={Bike1}
                 alt='...'
               />
             </div>
             <div className='col-md-3 col-sm-6 d-flex justify-content-center'>
               <img
                 className='fproject-image img-thumbnail img-fluid m-3'
-                src={StarShopImage2}
+                src={Bike2}
                 alt='...'
               />
             </div>
             <div className='col-md-3 col-sm-6 d-flex justify-content-center'>
               <img
                 className='fproject-image img-thumbnail img-fluid m-3'
-                src={StarShopImage3}
+                src={Bike3}
                 alt='...'
               />
             </div>
             <div className='col-md-3 col-sm-6 d-flex justify-content-center'>
               <img
                 className='fproject-image img-thumbnail img-fluid m-3'
-                src={StarShopImage4}
+                src={Bike4}
                 alt='...'
               />
             </div>
@@ -45,19 +45,16 @@ const Featured = () => {
         </div>
         <div className='container'>
           <div className='fproject-name'>
-            <h5 className='featured-project text-center'>
-              StarShop- E-Commerce Website
-            </h5>
+            <h5 className='featured-project text-center'>Bike Finland</h5>
           </div>
           <div className='row'>
             <div className='col-md-6 p-3'>
               <div className='description  '>
                 <h6 card-title>The Brief</h6>
                 <p className='card-title'>
-                  Online commerce offers a plethora of benefits, from selling
-                  everywhere to personalized experiences that drive loyalty.The
-                  goal of this project is to build a website that is easy to
-                  navigate and to have a cart functionality.
+                  Bike Finland is an application that helps the user in locating
+                  Bike stations in Helsinki and Espoo. The user can filter and
+                  search for the nearest stations.
                 </p>
               </div>
             </div>
@@ -65,9 +62,10 @@ const Featured = () => {
               <div className='description'>
                 <h6 card-title>The Result</h6>
                 <p className='card-title'>
-                  StarShop was inspired by the leading online fashion store in
-                  Europe.The website is responsive and can be viewed in
-                  different devices.
+                  Bike Finland is a full stack application that lets you do
+                  basic search of a particular station.It returns basic
+                  information and overview of the station and its location in
+                  the map.It also has a login, signup and logout features.
                 </p>
               </div>
             </div>

@@ -6,6 +6,8 @@ import PortfolioImage from '../images/portfolioimage4.png'
 import CovidAppImage from '../images/CAI-Phone.png'
 import RestaurantImage from '../images/restaurantimage4.png'
 import StarShopImage from '../images/starshop-image4.png'
+import Bike1 from '../images/Bike-f1.png'
+
 import { Link } from 'react-router-dom'
 
 const Slides = () => {
@@ -19,6 +21,9 @@ const Slides = () => {
           showThumbs={false}
           showStatus={false}
         >
+          <div className='text-center'>
+            <img src={Bike1} alt='project' />
+          </div>
           <div className='text-center'>
             <img src={StarShopImage} alt='project' />
           </div>

@@ -6,6 +6,7 @@ import RestaurantImage from '../images/restaurantimage4.png'
 import MovieSearchImage from '../images/hookedimage5.png'
 import StarShopImage from '../images/starshop-image4.png'
 import GrabEatImage from '../images/grab-eat-image1.png'
+import Bike1 from '../images/Bike-f1.png'
 import Fade from 'react-reveal/Fade'
 import { FaGlobe, FaLaptopCode } from 'react-icons/fa'
 
@@ -28,6 +29,56 @@ const Portfolio = () => {
         <div className='container portfolio-projects-container'>
           <div className='container py-5'>
             <div className='row row-cols-1 row-cols-md-3 g-4'>
+              <div className='col'>
+                <div className='card h-100'>
+                  <img src={Bike1} className='card-img-top' alt='...' />
+                  <div className='card-body'>
+                    <h5 className='card-title text-center fw-bold'>
+                      Bike Finland
+                    </h5>
+                    <p className='card-text text-primary'>
+                      Technologies Used: NextJS,Typescript,React,
+                      React,Styled-Components, HTML, CSS,MongoDB, NodeJS
+                    </p>
+                    <h6 card-title>The Brief</h6>
+                    <p className='card-text'>
+                      Bike Finland is an application that helps the user in
+                      locating Bike stations in Helsinki and Espoo. The user can
+                      filter and search for the nearest stations.
+                    </p>
+                    <h6 card-title>The Result</h6>
+                    <p className='card-text'>
+                      Bike Finland is a full stack application that lets you do
+                      basic search of a particular station.It returns basic
+                      information and overview of the station and its location
+                      in the map.It also has a login, signup and logout
+                      features.
+                    </p>
+                  </div>
+                  <div className='project-links text-center p-2'>
+                    <button className='btn btn-primary rounded-pill'>
+                      <a
+                        href='https://github.com/iamtigermaximus/bike_finland'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='button-link'
+                      >
+                        <FaLaptopCode />
+                      </a>
+                    </button>
+                    <button className='btn btn-primary rounded-pill'>
+                      <a
+                        href='https://bike-finland.vercel.app/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='button-link'
+                      >
+                        <FaGlobe />
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
               <div className='col'>
                 <div className='card h-100'>
                   <img src={GrabEatImage} className='card-img-top' alt='...' />
