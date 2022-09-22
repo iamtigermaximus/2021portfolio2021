@@ -7,7 +7,6 @@ const Navigation = () => {
       <div className='container'>
         <div className='navbar-brand'>
           <Link className='navbar-brand-link' to='/'>
-            {' '}
             SIEGFRED GAMBOA
           </Link>
         </div>
