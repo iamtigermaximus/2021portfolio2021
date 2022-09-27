@@ -8,6 +8,7 @@ import StarShopImage from '../images/starshop-image4.png'
 import GrabEatImage from '../images/grab-eat-image1.png'
 import Bike1 from '../images/Bike-f1.png'
 import Construction1 from '../images/smg-constructions.png'
+import Photographer from '../images/ppw.png'
 import Fade from 'react-reveal/Fade'
 import { FaGlobe, FaLaptopCode } from 'react-icons/fa'
 
@@ -30,6 +31,51 @@ const Portfolio = () => {
         <div className='container portfolio-projects-container'>
           <div className='container py-5'>
             <div className='row row-cols-1 row-cols-md-3 g-4'>
+              <div className='col'>
+                <div className='card h-100'>
+                  <img src={Photographer} className='card-img-top' alt='...' />
+                  <div className='card-body'>
+                    <h5 className='card-title text-center fw-bold'>
+                      SMG Photography
+                    </h5>
+                    <p className='card-text text-primary'>
+                      Technologies Used: NextJS,Typescript,React,
+                      React,Styled-Components, HTML, CSS
+                    </p>
+                    <h6 card-title>The Brief</h6>
+                    <p className='card-text'>
+                      Sample Photographer Portfolio Website
+                    </p>
+                    <h6 card-title>The Result</h6>
+                    <p className='card-text'>
+                      SMG Photography is a sample website that displays the
+                      works, services and contact information of the company.
+                    </p>
+                  </div>
+                  <div className='project-links text-center p-2'>
+                    <button className='btn btn-primary rounded-pill'>
+                      <a
+                        href='https://github.com/iamtigermaximus/photographer-portfolio-sample'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='button-link'
+                      >
+                        <FaLaptopCode />
+                      </a>
+                    </button>
+                    <button className='btn btn-primary rounded-pill'>
+                      <a
+                        href='https://photographer-website-react-typescript.netlify.app/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='button-link'
+                      >
+                        <FaGlobe />
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
               <div className='col'>
                 <div className='card h-100'>
                   <img src={Bike1} className='card-img-top' alt='...' />
