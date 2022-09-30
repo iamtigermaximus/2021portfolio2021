@@ -42,11 +42,11 @@ const Portfolio = () => {
                       Technologies Used: NextJS,Typescript,React,
                       React,Styled-Components, HTML, CSS
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       Sample Photographer Portfolio Website
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       SMG Photography is a sample website that displays the
                       works, services and contact information of the company.
@@ -87,13 +87,13 @@ const Portfolio = () => {
                       Technologies Used: NextJS,Typescript,React,
                       React,Styled-Components, HTML, CSS,MongoDB, NodeJS
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       Bike Finland is an application that helps the user in
                       locating Bike stations in Helsinki and Espoo. The user can
                       filter and search for the nearest stations.
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       Bike Finland is a full stack application that lets you do
                       basic search of a particular station.It returns basic
@@ -137,11 +137,11 @@ const Portfolio = () => {
                       Technologies Used: React, React,Styled-Components, HTML,
                       CSS
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       A sample website for a construction company
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       SMG Constructions is a mock up website of a construction
                       company.It displays the services the company offers and
@@ -183,9 +183,9 @@ const Portfolio = () => {
                       Technologies Used:React, React Router, Bootstrap, HTML,
                       CSS
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>ONGOING PERSONAL PROJECT...</p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       ONGOING PERSONAL PROJECT... Check the progress on the
                       link.
@@ -226,13 +226,13 @@ const Portfolio = () => {
                       Technologies Used:React, React Router,
                       Bootstrap,Json-Server, HTML, CSS
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       Online commerce offers a plethora of benefits, from
                       selling everywhere to personalized experiences that drive
                       loyalty.
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       StarShop was inspired by the leading online fashion store
                       in Europe.The website is responsive and can be viewed in
@@ -278,14 +278,14 @@ const Portfolio = () => {
                       Technologies Used:React, React Router, Bootstrap, HTML,
                       CSS, REST API
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       The Covid-19 pandemic has changed the way we live.People
                       tries to think of different ways to make the time they
                       spend at home as enjoyable as possible.More time at home
                       means more time for streaming movies and watching TV.
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       Hooked is a movie search app that lets you do basic search
                       of a particular movie.It returns basic information and
@@ -329,7 +329,7 @@ const Portfolio = () => {
                       Technologies Used:React, React Router, Bootstrap, HTML,
                       CSS, REST API
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       Covid Tracker apps are everywhere, but my biggest issue
                       with them all is how bloated they all are. Social login,
@@ -337,7 +337,7 @@ const Portfolio = () => {
                       wanted something really simple but shows the important
                       data needed by the user.
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       Corona Tracker is a prevalence app that provides
                       up-to-date cases of Covid-19 around the world.It provides
@@ -387,14 +387,14 @@ const Portfolio = () => {
                       Technologies Used:React, React Router, Bootstrap, HTML,
                       CSS
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       A website gives a restaurant business a platform to
                       provide the basic information the customers may need to
                       know.It gives potential customers a feel for your
                       restaurant, menu and atmosphere.
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       Moma provides basic information about the restaurant's
                       menu,the kind of service, how to book and reserve a table,
@@ -441,7 +441,7 @@ const Portfolio = () => {
                       Technologies Used:React, React Router, Bootstrap, HTML,
                       CSS
                     </p>
-                    <h6 card-title>The Brief</h6>
+                    <h6 className='card-title'>The Brief</h6>
                     <p className='card-text'>
                       There are certain careers where portfolios prove more
                       helpful than just resume in showcasing your skills and
@@ -450,7 +450,7 @@ const Portfolio = () => {
                       skills and knowledge of a potential employee fits their
                       needs.
                     </p>
-                    <h6 card-title>The Result</h6>
+                    <h6 className='card-title'>The Result</h6>
                     <p className='card-text'>
                       I built a portfolio website to showcase a collection of my
                       personal projects.It also provides basic information about
