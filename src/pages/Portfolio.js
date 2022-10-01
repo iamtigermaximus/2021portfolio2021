@@ -36,7 +36,7 @@ const Portfolio = () => {
                     <div className='card h-100'>
                       <img
                         src={project.image}
-                        className='card-img-top'
+                        className='card-image-top'
                         alt='...'
                       />
                       <div className='card-body'>

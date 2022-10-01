@@ -340,9 +340,11 @@ body {
 }
 
 .card-image-top {
-  height: 100%;
   width: 100%;
-  object-fit: cover;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card-title {

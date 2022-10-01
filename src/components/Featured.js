@@ -50,7 +50,7 @@ const Featured = () => {
           <div className='row'>
             <div className='col-md-6 p-3'>
               <div className='description  '>
-                <h6 card-title>The Brief</h6>
+                <h6 className='card-title'>The Brief</h6>
                 <p className='card-title'>
                   Bike Finland is an application that helps the user in locating
                   Bike stations in Helsinki and Espoo. The user can filter and
@@ -60,7 +60,7 @@ const Featured = () => {
             </div>
             <div className='col-md-6 p-3'>
               <div className='description'>
-                <h6 card-title>The Result</h6>
+                <h6 className='card-title'>The Result</h6>
                 <p className='card-title'>
                   Bike Finland is a full stack application that lets you do
                   basic search of a particular station.It returns basic
