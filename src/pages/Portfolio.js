@@ -29,7 +29,7 @@ const Portfolio = () => {
         </Fade>
       </div>
       <Fade>
-        {!isLoading ? (
+        {isLoading ? (
           <div className='loading-container'>
             <h3>LOADING...</h3>
           </div>
