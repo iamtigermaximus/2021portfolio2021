@@ -6,11 +6,13 @@ import axios from 'axios'
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([])
-
+  const [isLoading, setIsLoading] = useState(false)
   useEffect(() => {
+    setIsLoading(true)
     axios
       .get('https://backend-portfolio1925.herokuapp.com/')
       .then((response) => setProjects(response.data.items))
+    setIsLoading(false)
   }, [])
   return (
     <div className='portfolio-page-container'>
@@ -27,57 +29,65 @@ const Portfolio = () => {
         </Fade>
       </div>
       <Fade>
-        <div className='container portfolio-projects-container'>
-          <div className='container py-5'>
-            <div className='row row-cols-1 row-cols-md-3 g-4'>
-              {projects.reverse().map((project) => {
-                return (
-                  <div className='col' key={project._id}>
-                    <div className='card h-100'>
-                      <img
-                        src={project.image}
-                        className='card-image-top'
-                        alt='...'
-                      />
-                      <div className='card-body'>
-                        <h5 className='card-title text-center fw-bold'>
-                          {project.title}
-                        </h5>
-                        <p className='card-text text-primary'>{project.tech}</p>
-                        <h6 className='card-title'>The Brief</h6>
-                        <p className='card-text'>{project.briefDesc}</p>
-                        <h6 className='card-title'>The Result</h6>
-                        <p className='card-text'>{project.resultDesc}</p>
-                      </div>
-                      <div className='project-links text-center p-2'>
-                        <button className='btn btn-primary rounded-pill'>
-                          <a
-                            href={project.github}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='button-link'
-                          >
-                            <FaLaptopCode />
-                          </a>
-                        </button>
-                        <button className='btn btn-primary rounded-pill'>
-                          <a
-                            href={project.demoLink}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='button-link'
-                          >
-                            <FaGlobe />
-                          </a>
-                        </button>
+        {!isLoading ? (
+          <div className='loading-container'>
+            <h3>LOADING...</h3>
+          </div>
+        ) : (
+          <div className='container portfolio-projects-container'>
+            <div className='container py-5'>
+              <div className='row row-cols-1 row-cols-md-3 g-4'>
+                {projects.reverse().map((project) => {
+                  return (
+                    <div className='col' key={project._id}>
+                      <div className='card h-100'>
+                        <img
+                          src={project.image}
+                          className='card-image-top'
+                          alt='...'
+                        />
+                        <div className='card-body'>
+                          <h5 className='card-title text-center fw-bold'>
+                            {project.title}
+                          </h5>
+                          <p className='card-text text-primary'>
+                            {project.tech}
+                          </p>
+                          <h6 className='card-title'>The Brief</h6>
+                          <p className='card-text'>{project.briefDesc}</p>
+                          <h6 className='card-title'>The Result</h6>
+                          <p className='card-text'>{project.resultDesc}</p>
+                        </div>
+                        <div className='project-links text-center p-2'>
+                          <button className='btn btn-primary rounded-pill'>
+                            <a
+                              href={project.github}
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              className='button-link'
+                            >
+                              <FaLaptopCode />
+                            </a>
+                          </button>
+                          <button className='btn btn-primary rounded-pill'>
+                            <a
+                              href={project.demoLink}
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              className='button-link'
+                            >
+                              <FaGlobe />
+                            </a>
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                )
-              })}
+                  )
+                })}
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </Fade>
       <SocialMedia />
     </div>
