@@ -31,7 +31,7 @@ const Portfolio = () => {
       <Fade>
         {isLoading ? (
           <div className='loading-container'>
-            <h3>LOADING...</h3>
+            <h3 className='loading'>LOADING...</h3>
           </div>
         ) : (
           <div className='container portfolio-projects-container'>

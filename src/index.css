@@ -357,8 +357,12 @@ body {
 .loading-container {
   width: 100%;
   height: 100vh;
-  background: darkgray;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 30px;
+}
+
+.loading {
+  color: black;
+  font-size: 15px;
 }
