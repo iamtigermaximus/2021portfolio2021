@@ -10,7 +10,7 @@ const Portfolio = () => {
   useEffect(() => {
     setIsLoading(true)
     axios
-      .get('https://backend-portfolio1925.herokuapp.com/')
+      .get('https://portfolio-backend-rosy.vercel.app/')
       .then((response) => setProjects(response.data.items))
     setIsLoading(false)
   }, [])
