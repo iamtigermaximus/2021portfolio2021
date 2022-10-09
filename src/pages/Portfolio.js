@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import SocialMedia from '../components/SocialMedia'
 import Fade from 'react-reveal/Fade'
 import { FaGlobe, FaLaptopCode } from 'react-icons/fa'
+import { Circles } from 'react-loader-spinner'
 import axios from 'axios'
 
 const Portfolio = () => {
@@ -31,7 +32,15 @@ const Portfolio = () => {
       <Fade>
         {isLoading ? (
           <div className='loading-container'>
-            <h3 className='loading'>LOADING...</h3>
+            <Circles
+              height='80'
+              width='80'
+              color='#020626'
+              ariaLabel='circles-loading'
+              wrapperStyle={{}}
+              wrapperClass=''
+              visible={true}
+            />
           </div>
         ) : (
           <div className='container portfolio-projects-container'>
